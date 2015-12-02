@@ -13,6 +13,7 @@
 		3D992EE51C0FB7C8009285EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D992EE31C0FB7C8009285EA /* Main.storyboard */; };
 		3D992EE71C0FB7C8009285EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D992EE61C0FB7C8009285EA /* Assets.xcassets */; };
 		3D992EEA1C0FB7C8009285EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D992EE81C0FB7C8009285EA /* LaunchScreen.storyboard */; };
+		3D992EF31C0FB7F4009285EA /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D992EF21C0FB7F4009285EA /* UIViewController+Tracking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3D992EE61C0FB7C8009285EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D992EE91C0FB7C8009285EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D992EEB1C0FB7C8009285EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D992EF11C0FB7F4009285EA /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		3D992EF21C0FB7F4009285EA /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				3D992EDE1C0FB7C8009285EA /* AppDelegate.m */,
 				3D992EE01C0FB7C8009285EA /* ViewController.h */,
 				3D992EE11C0FB7C8009285EA /* ViewController.m */,
+				3D992EF11C0FB7F4009285EA /* UIViewController+Tracking.h */,
+				3D992EF21C0FB7F4009285EA /* UIViewController+Tracking.m */,
 				3D992EE31C0FB7C8009285EA /* Main.storyboard */,
 				3D992EE61C0FB7C8009285EA /* Assets.xcassets */,
 				3D992EE81C0FB7C8009285EA /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D992EE21C0FB7C8009285EA /* ViewController.m in Sources */,
+				3D992EF31C0FB7F4009285EA /* UIViewController+Tracking.m in Sources */,
 				3D992EDF1C0FB7C8009285EA /* AppDelegate.m in Sources */,
 				3D992EDC1C0FB7C8009285EA /* main.m in Sources */,
 			);
