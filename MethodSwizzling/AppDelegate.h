@@ -1,0 +1,17 @@
+//
+//  AppDelegate.h
+//  MethodSwizzling
+//
+//  Created by Cong Sun on 12/2/15.
+//  Copyright © 2015 Cong Sun. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+
+@end
+
