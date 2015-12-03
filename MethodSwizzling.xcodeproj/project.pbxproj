@@ -14,6 +14,7 @@
 		3D992EE71C0FB7C8009285EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D992EE61C0FB7C8009285EA /* Assets.xcassets */; };
 		3D992EEA1C0FB7C8009285EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D992EE81C0FB7C8009285EA /* LaunchScreen.storyboard */; };
 		3D992EF31C0FB7F4009285EA /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D992EF21C0FB7F4009285EA /* UIViewController+Tracking.m */; };
+		3D992EF61C100490009285EA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D992EF51C100490009285EA /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3D992EEB1C0FB7C8009285EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D992EF11C0FB7F4009285EA /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
 		3D992EF21C0FB7F4009285EA /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		3D992EF41C100490009285EA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3D992EF51C100490009285EA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				3D992EE11C0FB7C8009285EA /* ViewController.m */,
 				3D992EF11C0FB7F4009285EA /* UIViewController+Tracking.h */,
 				3D992EF21C0FB7F4009285EA /* UIViewController+Tracking.m */,
+				3D992EF41C100490009285EA /* SecondViewController.h */,
+				3D992EF51C100490009285EA /* SecondViewController.m */,
 				3D992EE31C0FB7C8009285EA /* Main.storyboard */,
 				3D992EE61C0FB7C8009285EA /* Assets.xcassets */,
 				3D992EE81C0FB7C8009285EA /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D992EF61C100490009285EA /* SecondViewController.m in Sources */,
 				3D992EE21C0FB7C8009285EA /* ViewController.m in Sources */,
 				3D992EF31C0FB7F4009285EA /* UIViewController+Tracking.m in Sources */,
 				3D992EDF1C0FB7C8009285EA /* AppDelegate.m in Sources */,
